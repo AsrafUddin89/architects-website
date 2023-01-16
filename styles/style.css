@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family: work sans, sans-serif;
+
+}
+/*Banner Area */
+.banner-title{
+    display: flex;
+    justify-content: space-between;
+}
+.header-body{
+    background-color: rgba(250, 228, 215, 0.987);
+}
+.title-bar{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+
+.list-title{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 700;
+    background-color: rgba(245, 241, 238, 0.987);
+    padding: 50px 250px;
+    align-items: center;
+    margin-bottom: 45px;
+}
+/*Banner Description*/
+.arch-title{
+    font-weight: 700;
+    font-size: 65px;
+   text-align: center;
+}
+.arch-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    width: 135px;
+    height: 55px;
+    border-radius: 8px;
+    color: rgb(245, 244, 242);
+    margin-left: 670px;
+    margin-top: 15px;
+    background-color: orange
+}
+.banner-image{
+    align-items: center;
+    padding: 35px 240px;
+}
+/* Main Area */
+.team-style{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+.image-style{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    margin-left: 25px;
+}
+.team-description{
+   padding-top: 15px;
+   padding-bottom: 15px;
+
+}
+.team-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.team-feature{
+    color: orange;
+}
+.btn-second{
+    font-weight: 600;
+    font-size: 20px;
+    width: 135px;
+    height: 55px;
+    border-radius: 8px;
+    color: rgb(245, 244, 242);
+    
+    background-color: orange
+}
+/* Feature Area */
+
+.feature{
+    display: flex;
+    justify-content:space-between;
+    
+    margin-left: 55px;
+    padding-top: 35px;
+}
+.feature-description{
+    border: 1px solid whitesmoke;
+    padding-left: 85px;
+
+}
+
+.feature-title{
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+.feature-style{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feature-image{
+    margin-right: 55px;
+}
